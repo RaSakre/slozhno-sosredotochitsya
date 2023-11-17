@@ -11,6 +11,7 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+		min-inline-size: 375px;
   }
 
   .header {
@@ -49,7 +50,7 @@
     inset-inline-start: 41px;
   }
 
-  .square__right {
+  .header__square-right {
     position: relative;
     display: inline-block;
     justify-self: end;
@@ -106,7 +107,7 @@
     margin-block-start: 66.5px;
     margin-block-end: 55px;
     color: var(--title-color, #db00ff);
-    font-family: IBM Plex Mono;
+    font-family: var(--dark-light-font, sans-serif, monospace);
     font-weight: 700;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     font-style: normal;
@@ -125,7 +126,7 @@
     background-color: var(--accent-color, #ff0070);
   }
 
-  .square-left {
+  .header__square-left {
     width: 25.036px;
     height: 25.002px;
     margin-block-start: 31px;
@@ -138,7 +139,7 @@
   .main__title {
     margin-block-end: 20px;
     color: var(--main-titles-color, #ff0070);
-    font-family: IBM Plex Mono;
+    font-family: var(--dark-light-font, sans-serif, monospace);
     font-weight: 700;
     font-size: 18px;
     font-style: normal;
@@ -153,7 +154,7 @@
   .main__text {
     margin-block-end: 20px;
     color: var(--text-color, #f1b2ce);
-    font-family: IBM Plex Mono;
+    font-family: var(--dark-light-font, sans-serif, monospace);
     font-weight: 400;
     font-size: 18px;
     font-style: normal;
@@ -178,7 +179,7 @@
 
   .main__subtitle {
     margin-block-end: 10px;
-    font-family: IBM Plex Mono;
+    font-family: var(--dark-light-font, sans-serif, monospace);
     font-weight: 700;
     font-size: 18px;
     font-style: normal;
@@ -188,7 +189,7 @@
   .main__label-title {
     margin-block-end: 10px;
     color: var(--subtitle-color, #000028);
-    font-family: IBM Plex Mono;
+    font-family: var(--dark-light-font, sans-serif, monospace);
     font-weight: 400;
     font-size: 18px;
     font-style: normal;
@@ -198,22 +199,22 @@
   .main__third-subtitle {
     margin-block-end: 20px;
     color: var(--subtitle-color, #000028);
-    font-family: IBM Plex Mono;
+    font-family: var(--dark-light-font, sans-serif, monospace);
     font-weight: 700;
     font-size: 18px;
     font-style: normal;
     line-height: 23.4px; /* 130% */
   }
 
-  .main__first-section p:last-of-type {
+  .main__section-why p:last-of-type {
     margin-block-end: 50px;
   }
 
-  .main__second-section p:last-of-type {
+  .main__section-what p:last-of-type {
     margin-block-end: 50px;
   }
 
-  .main__third-section p:last-of-type {
+  .main__section-how p:last-of-type {
     margin-block-end: 50px;
   }
 
@@ -268,7 +269,7 @@
   .footer__title {
     margin-block-start: -45px;
     color: var(--title-color, #db00ff);
-    font-family: IBM Plex Mono;
+    font-family: var(--dark-light-font, sans-serif, monospace);
     font-weight: 700;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     font-style: normal;
@@ -324,7 +325,7 @@
     inset-inline-start: 41px;
   }
 
-  .square__right {
+  .header__square-right {
     position: relative;
     display: inline-block;
     justify-self: end;
@@ -382,7 +383,7 @@
     margin-block-start: 180px;
     margin-block-end: 162px;
     color: var(--title-color, #db00ff);
-    font-family: IBM Plex Mono;
+    font-family: var(--dark-light-font, sans-serif, monospace);
     font-weight: 700;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     font-style: normal;
@@ -394,7 +395,7 @@
     justify-self: end;
     max-width: 364px;
     color: var(--subtitle-color, #000028);
-    font-family: IBM Plex Mono;
+    font-family: var(--dark-light-font, sans-serif, monospace);
     font-weight: 700;
     font-size: 18px;
     font-style: normal;
@@ -402,7 +403,7 @@
     background-color: var(--accent-color, #ff0070);
   }
 
-  .square-left {
+  .header__square-left {
     width: 25.036px;
     height: 25.002px;
     margin-block-start: 138px;
@@ -413,7 +414,7 @@
 
   /*-------------MAIN---------------*/
 
-  .main__first-section {
+  .main__section-why {
     display: grid;
     grid-template-columns: 256px 1fr;
   }
@@ -496,20 +497,20 @@
     line-height: 23.4px; /* 130% */
   }
 
-  .main__first-section p:last-of-type {
+  .main__section-why p:last-of-type {
     margin-block-end: 80px;
   }
 
-  .main__second-section p:last-of-type {
+  .main__section-what p:last-of-type {
     margin-block-end: 80px;
   }
 
-  .main__third-section {
+  .main__section-how {
     display: grid;
     grid-template-columns: 256px 1fr;
   }
 
-  .main__third-section p:last-of-type {
+  .main__section-how p:last-of-type {
     margin-block-end: 80px;
   }
 
@@ -639,7 +640,7 @@
     inset-inline-start: 41px;
   }
 
-  .square__right {
+  .header__square-right {
     position: relative;
     display: inline-block;
     justify-self: end;
@@ -730,7 +731,7 @@
     background-color: var(--accent-color, #ff0070);
   }
 
-  .square-left {
+  .header__square-left {
     width: 25.036px;
     height: 25.002px;
     margin-block-start: 89px;
@@ -741,7 +742,7 @@
 
   /*-------------MAIN---------------*/
 
-  .main__first-section {
+  .main__section-why {
     display: grid;
     grid-template-columns: 335px 1fr;
   }
@@ -828,30 +829,30 @@
     line-height: 23.4px; /* 130% */
   }
 
-  .main__first-section p:last-of-type {
+  .main__section-why p:last-of-type {
     margin-block-end: 80px;
   }
 
-  .main__second-section {
+  .main__section-what {
     display: grid;
   }
 
-  .second-section__grid {
+  .main__section-what-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
   }
 
-  .main__second-section p:last-of-type {
+  .main__section-what p:last-of-type {
     margin-block-end: 80px;
   }
 
-  .main__third-section {
+  .main__section-how {
     display: grid;
     grid-template-columns: 335px 1fr;
   }
 
-  .main__third-section p:last-of-type {
+  .main__section-how p:last-of-type {
     margin-block-end: 80px;
   }
 
@@ -923,7 +924,7 @@
 
   .footer__title {
     color: var(--title-color, #db00ff);
-    font-family: IBM Plex Mono;
+    font-family: var(--dark-light-font, sans-serif, monospace);
     font-weight: 700;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     font-style: normal;

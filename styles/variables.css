@@ -6,7 +6,7 @@
   --text-color: #f1b2ce;
   --main-titles-color: #ff0070;
   --cover-image: url(../images/cover-image-dark.png);
-  --dark-light-font: "IBM Plex Mono";
+  --dark-light-font: "IBM Plex Mono", monospace;
   --header-rec: hidden;
   --hover-color: rgba(50, 49, 45, 0.4);
 }
