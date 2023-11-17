@@ -11,12 +11,12 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-		min-inline-size: 375px;
+    min-inline-size: 375px;
   }
 
   .header {
     display: grid;
-		min-height: 668px;
+    min-height: 668px;
   }
 
   .decorated-zone {
@@ -218,7 +218,6 @@
     margin-block-end: 50px;
   }
 
-
   .main__image:not(:last-child) {
     margin-block-end: 10px;
   }
@@ -292,7 +291,7 @@
   }
   .header {
     display: grid;
-		min-height: 1024px;
+    min-height: 1024px;
   }
 
   .decorated-zone {
@@ -606,7 +605,7 @@
   }
   .header {
     display: grid;
-		min-height: 768px;
+    min-height: 768px;
   }
 
   .decorated-zone {
